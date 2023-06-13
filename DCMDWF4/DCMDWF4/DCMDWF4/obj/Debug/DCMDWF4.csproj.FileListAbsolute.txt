@@ -1,0 +1,11 @@
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\bin\Debug\DCMDWF4.exe.config
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\bin\Debug\DCMDWF4.exe
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\bin\Debug\DCMDWF4.pdb
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.csproj.AssemblyReference.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.Form1.resources
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.Properties.Resources.resources
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.csproj.GenerateResource.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.csproj.CoreCompileInputs.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.exe
+C:\Users\dimad\source\repos\WPractice\DCMDWF4\DCMDWF4\DCMDWF4\obj\Debug\DCMDWF4.pdb
