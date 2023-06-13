@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace DCMDWF
 {
-    
-    public partial class Form1 : Form
+
+    public partial class HelloByeByeFMainForm : Form
     {
         /// <summary>
         ///  This is the method that crets the form
         /// </summary>
-        public Form1()
+        public HelloByeByeFMainForm()
         {
             InitializeComponent();
         }
@@ -54,7 +54,7 @@ namespace DCMDWF
 
         private void Hello_Button(object sender, EventArgs e)
         {
-            
+
             label1.Text = "Hello! I'm inside of your walls!";
         }
 

@@ -7,6 +7,8 @@ using System.Windows.Forms;
 
 namespace DCMDWF2
 {
+    
+
     internal static class Program
     {
         /// <summary>
@@ -15,20 +17,18 @@ namespace DCMDWF2
         [STAThread]
         static void Main()
         {
+            Numbers numbers = new Numbers();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Formula());
         }
 
         /// <summary>
         /// The function that calculated the output of the given formula
         /// </summary>
-        static public string FormulaeCalculation()
+        static public string FormulaeCalculation(double x, double y, double z, double u)
         {
-            double x = 4.5;
-            double y = 0.75*Math.Pow(10,-4);
-            double z = 0.845*Math.Pow(10,2);
-            double u = -55.6848;
+
 
             double firstDiv = (Math.Pow(8 + Math.Pow(Math.Abs(x-y),2) + 1,1/3)) / (x*x+y*y+2);
             double eula = Math.Pow(Math.E,Math.Abs(x-y)) * (Math.Pow((Math.Pow(Math.Tan(z),2))+1,x));
@@ -37,6 +37,8 @@ namespace DCMDWF2
             string Answer = Convert.ToString(Ans);
             return Answer;
         }
+
+
 
     }
 }

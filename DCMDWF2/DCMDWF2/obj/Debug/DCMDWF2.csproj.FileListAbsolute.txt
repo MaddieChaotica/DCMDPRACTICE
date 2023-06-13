@@ -9,3 +9,14 @@ C:\Users\user\source\repos\DC's\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.Generat
 C:\Users\user\source\repos\DC's\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\DC's\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.exe
 C:\Users\user\source\repos\DC's\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.pdb
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\bin\Debug\DCMDWF2.exe.config
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\bin\Debug\DCMDWF2.exe
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\bin\Debug\DCMDWF2.pdb
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.Properties.Resources.resources
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.exe
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.pdb
+C:\Users\admin\source\repos\dcvmd\DCMDWF2\DCMDWF2\obj\Debug\DCMDWF2.Formula.resources
