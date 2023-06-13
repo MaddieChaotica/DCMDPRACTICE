@@ -21,27 +21,31 @@ namespace DCMD_lab3
         {
 
         }
+
         /// <summary>
-        /// Handles the click of the btn1, calling the SolveEquation function with the first input parametre of 1.
-        /// </summary>
-        private void btn1Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(Program.SolveEquations(1, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
-        }
-        /// <summary>
-        /// Handles the click of the btn2, calling the SolveEquation function with the first input parametre of 2.
+        /// Handles the click of the button, calling the SolveEquation function with the first input parametre that is equal to pressed radiobutton.
         /// </summary>
         private void btn2Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Program.SolveEquations(2, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            int num = 1;
+            if (radioButton1.Checked == true)
+            {
+                num = 1;
+            }
+            if (radioButton2.Checked == true)
+            {
+                num = 2;
+            }
+            if (radioButton3.Checked == true)
+            {
+                num = 3;
+            }
+
+
+            MessageBox.Show(Program.SolveEquations(num, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
         }
-        /// <summary>
-        /// Handles the click of the btn3, calling the SolveEquation function with the first input parametre of 3.
-        /// </summary>
-        private void btn3Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(Program.SolveEquations(3, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
-        }
+
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
