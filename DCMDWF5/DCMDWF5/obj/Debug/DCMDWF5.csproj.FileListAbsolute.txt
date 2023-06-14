@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\bin\Debug\DCMDWF5.exe.config
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\bin\Debug\DCMDWF5.exe
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\bin\Debug\DCMDWF5.pdb
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.LineCounter.resources
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.Properties.Resources.resources
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.exe
+C:\Users\admin\source\repos\DCMD\DCMDWF5\DCMDWF5\obj\Debug\DCMDWF5.pdb
