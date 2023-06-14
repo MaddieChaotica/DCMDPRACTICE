@@ -1,0 +1,11 @@
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\bin\Debug\DCMDWF6.exe.config
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\bin\Debug\DCMDWF6.exe
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\bin\Debug\DCMDWF6.pdb
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.csproj.AssemblyReference.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.ArrayInserter.resources
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.Properties.Resources.resources
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.csproj.GenerateResource.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.csproj.CoreCompileInputs.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.exe
+C:\Users\dimad\source\repos\WPractice\DCMDWF6\DCMDWF6\obj\Debug\DCMDWF6.pdb
