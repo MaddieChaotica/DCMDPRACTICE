@@ -37,7 +37,7 @@ namespace DCMD_lab3
             }
 
 
-            MessageBox.Show(Program.SolveEquations(num, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            MessageBox.Show(Program.SolveEquations(num, Convert.ToDouble(tbXValue.Text), Convert.ToDouble(tbYValue.Text)));
         }
 
         /// <summary>

@@ -31,7 +31,12 @@ namespace DCMDWF5
         /// </summary>
         private void btnLineCntActivator_Click(object sender, EventArgs e)
         {
-            string str = (String)theLineBox.Items[theLineBox.SelectedIndex];
+            int index= 0;
+            if (theLineBox.SelectedIndex != -1)
+            {
+                index = theLineBox.SelectedIndex;
+            }
+            string str = (String)theLineBox.Items[index];
             int counter = 0;
             for (int i = 0; i < str.Length; i++)
             {

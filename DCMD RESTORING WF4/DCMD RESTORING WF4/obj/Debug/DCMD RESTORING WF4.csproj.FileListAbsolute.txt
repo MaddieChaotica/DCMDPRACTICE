@@ -18,4 +18,4 @@ C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug
 C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.exe
 C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.pdb
-C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMDWF4.Form1.resources
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMDWF4.FormHandler.resources

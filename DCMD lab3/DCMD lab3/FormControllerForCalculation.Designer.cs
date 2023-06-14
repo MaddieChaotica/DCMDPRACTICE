@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(calculateFunctions));
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbXValue = new System.Windows.Forms.TextBox();
+            this.tbYValue = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -53,23 +53,23 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.btn2Click);
             // 
-            // textBox1
+            // tbXValue
             // 
-            this.textBox1.Location = new System.Drawing.Point(95, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "EnterX";
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.tbXValue.Location = new System.Drawing.Point(95, 48);
+            this.tbXValue.Name = "tbXValue";
+            this.tbXValue.Size = new System.Drawing.Size(100, 20);
+            this.tbXValue.TabIndex = 8;
+            this.tbXValue.Text = "EnterX";
+            this.tbXValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
-            // textBox2
+            // tbYValue
             // 
-            this.textBox2.Location = new System.Drawing.Point(608, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.Text = "EnterY";
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.tbYValue.Location = new System.Drawing.Point(608, 48);
+            this.tbYValue.Name = "tbYValue";
+            this.tbYValue.Size = new System.Drawing.Size(100, 20);
+            this.tbYValue.TabIndex = 9;
+            this.tbYValue.Text = "EnterY";
+            this.tbYValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // radioButton1
             // 
@@ -139,8 +139,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.formulaPictureBox);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbYValue);
+            this.Controls.Add(this.tbXValue);
             this.Controls.Add(this.button4);
             this.Name = "calculateFunctions";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -155,8 +155,8 @@
 
         #endregion
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbXValue;
+        private System.Windows.Forms.TextBox tbYValue;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
