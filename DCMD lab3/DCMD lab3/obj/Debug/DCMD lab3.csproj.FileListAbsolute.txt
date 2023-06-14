@@ -20,3 +20,14 @@ C:\Users\dimad\source\repos\WPractice\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.cs
 C:\Users\dimad\source\repos\WPractice\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.csproj.CoreCompileInputs.cache
 C:\Users\dimad\source\repos\WPractice\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.exe
 C:\Users\dimad\source\repos\WPractice\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.pdb
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\bin\Debug\DCMD lab3.exe.config
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\bin\Debug\DCMD lab3.exe
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\bin\Debug\DCMD lab3.pdb
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD_lab3.calculateFunctions.resources
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD_lab3.Properties.Resources.resources
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.exe
+C:\Users\admin\source\repos\DCMD\DCMD lab3\DCMD lab3\obj\Debug\DCMD lab3.pdb

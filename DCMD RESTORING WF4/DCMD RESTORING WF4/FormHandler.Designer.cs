@@ -1,6 +1,6 @@
 ﻿namespace DCMDWF4
 {
-    partial class Form1
+    partial class FormHandler
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -201,15 +201,16 @@
             this.AnswerBox.Size = new System.Drawing.Size(365, 290);
             this.AnswerBox.TabIndex = 1;
             // 
-            // Form1
+            // FormHandler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 551);
             this.Controls.Add(this.AnswerBox);
             this.Controls.Add(this.valueBox);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormHandler";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DeviationCalculator";
             this.valueBox.ResumeLayout(false);
             this.valueBox.PerformLayout();
             this.ResumeLayout(false);

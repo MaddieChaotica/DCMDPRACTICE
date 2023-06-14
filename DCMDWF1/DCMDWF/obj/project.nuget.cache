@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uNnVs8WwF+5JuZZqxVOdbKl49GZ4qxsW/iMVctsGZ2fR5N9VkuIkYD8gNPyPYbBzcxG3Ambfaq/EuJQVWm/TJg==",
+  "dgSpecHash": "9Tav9wy6FXCUvnlMeYu3RxHvXWBY+CJ4Hx1eK6RpD4Q7chl7xEo0VijXgGYPOjebvUykMpcVK5aJuVYSnnjLhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\dcvmd\\DCMDWF1\\DCMDWF\\DCMDWF.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\DCMD\\DCMDWF1\\DCMDWF\\DCMDWF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

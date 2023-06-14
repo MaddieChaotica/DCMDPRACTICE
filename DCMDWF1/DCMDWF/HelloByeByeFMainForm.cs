@@ -68,9 +68,5 @@ namespace DCMDWF
             label1.Text = "Bye-bye~ I'll make sure to not let you hide under your bed next time~";
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

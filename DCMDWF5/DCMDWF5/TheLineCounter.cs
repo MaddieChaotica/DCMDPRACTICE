@@ -12,14 +12,24 @@ namespace DCMDWF5
 {
     public partial class LineCounter : Form
     {
+        /// <summary>
+        ///  Some Global variables that are need inside of a function
+        ///  Ind is an index value that works like a counter
+        ///  s is just a string for in-between calculations
+        /// </summary>
         int ind = 0;
         string s;
         public LineCounter()
         {
             InitializeComponent();
         }
-
-        private void lineCntActivator_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Handels the Activation of the button.
+        /// When The button is activated, it gets the text of the text box and puts it into a string
+        /// After that it starts a loop that detects spaces. Each space is equal to a word.
+        /// It outputs that counter as a messagebox.
+        /// </summary>
+        private void btnLineCntActivator_Click(object sender, EventArgs e)
         {
             string str = (String)theLineBox.Items[theLineBox.SelectedIndex];
             int counter = 0;
@@ -37,12 +47,12 @@ namespace DCMDWF5
             MessageBox.Show("Your line has "+ Convert.ToString(counter) + " words");
 
         }
-
-        private void LineCounter_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            
-        }
-        private void theLineBox_KeyPress(object sender, KeyPressEventArgs e)
+        /// <summary>
+        /// Detects each key press user makes.
+        /// If the key press is an enter, it increases the index ind value by one and also add an empty object to the box
+        /// If user pressed anything else, it inputs it into the listbox
+        /// </summary>
+        private void lstbxTheLineBoxKeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
             {
@@ -61,6 +71,10 @@ namespace DCMDWF5
  
         }
 
+        /// <summary>
+        /// Creates an empty object when the form loads. 
+        /// Needed to ease the functioning of the program
+        /// </summary>
         private void LineCounter_Load(object sender, EventArgs e)
         {
             theLineBox.Items.Add(" ");

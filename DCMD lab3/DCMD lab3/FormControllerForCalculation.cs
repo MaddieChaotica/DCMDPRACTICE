@@ -17,11 +17,6 @@ namespace DCMD_lab3
             InitializeComponent();
         }
 
-        private void frmMain(object sender, EventArgs e)
-        {
-
-        }
-
         /// <summary>
         /// Handles the click of the button, calling the SolveEquation function with the first input parametre that is equal to pressed radiobutton.
         /// </summary>
@@ -45,22 +40,6 @@ namespace DCMD_lab3
             MessageBox.Show(Program.SolveEquations(num, Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
         }
 
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
         /// <summary>
         /// Handles the inputs into textboxes. If the input isn't a number or a decimal point, it won't allow you to input it
         /// </summary>
@@ -79,18 +58,23 @@ namespace DCMD_lab3
             }
         }
         /// <summary>
-        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point, it won't allow you to input it
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
         /// </summary>
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-          (e.KeyChar != '.'))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
             {
                 e.Handled = true;
             }
 
             // only allow one decimal point
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            if ((e.KeyChar == ',') && ((sender as TextBox).Text.IndexOf(',') > -1))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one minus symbol
+            if ((e.KeyChar == '-') && ((sender as TextBox).Text.IndexOf('-') > -1))
             {
                 e.Handled = true;
             }

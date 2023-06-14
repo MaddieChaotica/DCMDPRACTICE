@@ -40,7 +40,7 @@ namespace DCMDWF
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(118, 47);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "FALSE";
             button1.UseVisualStyleBackColor = true;
             button1.Click += Hello_Button;
             // 
@@ -50,7 +50,7 @@ namespace DCMDWF
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(117, 41);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "TRUTH";
             button2.UseVisualStyleBackColor = true;
             button2.Click += Byebye_Button;
             // 
@@ -59,12 +59,11 @@ namespace DCMDWF
             label1.AutoSize = true;
             label1.Location = new System.Drawing.Point(0, 227);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(38, 15);
+            label1.Size = new System.Drawing.Size(162, 15);
             label1.TabIndex = 2;
-            label1.Text = "label1";
-            label1.Click += label1_Click;
+            label1.Text = "THIS LABEL WILL BE CHAGED";
             // 
-            // Form1
+            // HelloByeByeFMainForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -72,7 +71,7 @@ namespace DCMDWF
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "HelloByeByeFMainForm";
             Text = "Hello-by-bye foirm";
             Load += Main_Form;
             ResumeLayout(false);

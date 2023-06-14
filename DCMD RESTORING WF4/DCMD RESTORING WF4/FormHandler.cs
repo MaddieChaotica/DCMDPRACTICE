@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DCMDWF4
 {
-    public partial class Form1 : Form
+    public partial class FormHandler : Form
     {
-        public Form1()
+        public FormHandler()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace DCMDWF4
             double b = Convert.ToDouble(bValue.Text);
             double x = x0;
             int count = 0;
-
+            
 
             if (Math.Abs(xk - (x0 + dx)) < Math.Abs(xk - x0))
             {
@@ -47,12 +47,15 @@ namespace DCMDWF4
             {
                 MessageBox.Show("Error! With inputed parametres you cannot achive xk");
             }
-
+            AnswerBox.Items.Insert(0, "Выполнил Бурыкин Дмитрий Алексеневич, студент группы 2ИС");
 
 
         }
-        
+
         #region InputHandles
+        /// <summary>
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
+        /// </summary>
         private void X0Value_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
@@ -73,7 +76,9 @@ namespace DCMDWF4
             }
 
         }
-
+        /// <summary>
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
+        /// </summary>
         private void XkValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
@@ -93,7 +98,9 @@ namespace DCMDWF4
                 e.Handled = true;
             }
         }
-
+        /// <summary>
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
+        /// </summary>
         private void DxValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
@@ -113,7 +120,9 @@ namespace DCMDWF4
                 e.Handled = true;
             }
         }
-
+        /// <summary>
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
+        /// </summary>
         private void aValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
@@ -133,7 +142,9 @@ namespace DCMDWF4
                 e.Handled = true;
             }
         }
-
+        /// <summary>
+        /// Handles the inputs into textboxes. If the input isn't a number or a decimal point or a minus, it won't allow you to input it
+        /// </summary>
         private void bValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))

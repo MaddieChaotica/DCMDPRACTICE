@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(calculateFunctions));
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -35,14 +36,16 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.formulaPictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.formulaPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Cyan;
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(285, 292);
+            this.button4.Location = new System.Drawing.Point(285, 364);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(226, 74);
             this.button4.TabIndex = 3;
@@ -120,20 +123,31 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ВЫБЕРЕТЕ ФОРМУЛУ";
             // 
+            // formulaPictureBox
+            // 
+            this.formulaPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("formulaPictureBox.Image")));
+            this.formulaPictureBox.Location = new System.Drawing.Point(223, 165);
+            this.formulaPictureBox.Name = "formulaPictureBox";
+            this.formulaPictureBox.Size = new System.Drawing.Size(362, 163);
+            this.formulaPictureBox.TabIndex = 14;
+            this.formulaPictureBox.TabStop = false;
+            // 
             // calculateFunctions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.formulaPictureBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Name = "calculateFunctions";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Great and powerful Form!";
-            this.Load += new System.EventHandler(this.frmMain);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.formulaPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +161,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.PictureBox formulaPictureBox;
     }
 }
 

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LineCounter));
             this.theLineBox = new System.Windows.Forms.ListBox();
-            this.lineCntActivator = new System.Windows.Forms.Button();
+            this.btnLineCntActivator = new System.Windows.Forms.Button();
             this.lineTextMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -41,22 +41,22 @@
             this.theLineBox.Name = "theLineBox";
             this.theLineBox.Size = new System.Drawing.Size(409, 225);
             this.theLineBox.TabIndex = 0;
-            this.theLineBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.theLineBox_KeyPress);
+            this.theLineBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lstbxTheLineBoxKeyPress);
             // 
-            // lineCntActivator
+            // btnLineCntActivator
             // 
-            this.lineCntActivator.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lineCntActivator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lineCntActivator.BackgroundImage")));
-            this.lineCntActivator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.lineCntActivator.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lineCntActivator.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lineCntActivator.Location = new System.Drawing.Point(84, 305);
-            this.lineCntActivator.Name = "lineCntActivator";
-            this.lineCntActivator.Size = new System.Drawing.Size(250, 119);
-            this.lineCntActivator.TabIndex = 1;
-            this.lineCntActivator.Text = "COUNT MY LINES, MACHINE";
-            this.lineCntActivator.UseVisualStyleBackColor = false;
-            this.lineCntActivator.Click += new System.EventHandler(this.lineCntActivator_Click);
+            this.btnLineCntActivator.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnLineCntActivator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLineCntActivator.BackgroundImage")));
+            this.btnLineCntActivator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLineCntActivator.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLineCntActivator.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnLineCntActivator.Location = new System.Drawing.Point(84, 305);
+            this.btnLineCntActivator.Name = "btnLineCntActivator";
+            this.btnLineCntActivator.Size = new System.Drawing.Size(250, 119);
+            this.btnLineCntActivator.TabIndex = 1;
+            this.btnLineCntActivator.Text = "COUNT MY LINES, MACHINE";
+            this.btnLineCntActivator.UseVisualStyleBackColor = false;
+            this.btnLineCntActivator.Click += new System.EventHandler(this.btnLineCntActivator_Click);
             // 
             // lineTextMessage
             // 
@@ -75,12 +75,12 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(433, 447);
             this.Controls.Add(this.lineTextMessage);
-            this.Controls.Add(this.lineCntActivator);
+            this.Controls.Add(this.btnLineCntActivator);
             this.Controls.Add(this.theLineBox);
             this.Name = "LineCounter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Line Counter (TM)";
             this.Load += new System.EventHandler(this.LineCounter_Load);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LineCounter_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,7 +89,7 @@
         #endregion
 
         private System.Windows.Forms.ListBox theLineBox;
-        private System.Windows.Forms.Button lineCntActivator;
+        private System.Windows.Forms.Button btnLineCntActivator;
         private System.Windows.Forms.Label lineTextMessage;
     }
 }

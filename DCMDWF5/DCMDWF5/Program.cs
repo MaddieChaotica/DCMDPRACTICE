@@ -19,10 +19,5 @@ namespace DCMDWF5
             Application.Run(new LineCounter());
         }
 
-        public static int Counter(int c)
-        {
-
-            return (c + 1);
-        }
     }
 }
