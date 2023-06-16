@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
@@ -36,6 +37,8 @@ namespace DCMDWF4
             double x = x0;
             double yMin = 999999;
             double yMax = -999999;
+            int count = 0;
+            double i = xMin;
 
             derChart.ChartAreas[0].AxisX.Minimum = xMin;
             derChart.ChartAreas[0].AxisX.Maximum = xMax;
@@ -51,13 +54,15 @@ namespace DCMDWF4
 
             if (Math.Abs(xk - (x0 + dx)) < Math.Abs(xk - x0))
             {
-                for (int i = iMin; i < xMax; i++)
+                while (((x < xMax) || (x > xMin)) && count < xDots)
                 {
+                    
                     x = Math.Round(x + dx, 2);   
-                    xPoints[Math.Abs(i)] = xMin + step * Math.Abs(i);
-                    yPoints[Math.Abs(i)] = Program.equationTabbySolver(x, a, b); //Y Points on the chart
-                    if (yPoints[Math.Abs(i)] < yMin) { yMin = yPoints[Math.Abs(i)]; }
-                    if (yPoints[Math.Abs(i)] > yMax) { yMax = yPoints[Math.Abs(i)]; }
+                    xPoints[count] = x;
+                    yPoints[count] = Program.equationTabbySolver(x, a, b); //Y Points on the chart
+                    if (yPoints[count] < yMin) { yMin = yPoints[count]; }
+                    if (yPoints[count] > yMax) { yMax = yPoints[count]; }
+                    count++;
                 }
             }
             else
