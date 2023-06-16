@@ -1,0 +1,32 @@
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe.config
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.pdb
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.AssemblyReference.cache
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD_RESTORING_WF4.Properties.Resources.resources
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.GenerateResource.cache
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.CoreCompileInputs.cache
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.exe
+C:\Users\dimad\source\repos\WPractice\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.pdb
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe.config
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.pdb
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD_RESTORING_WF4.Properties.Resources.resources
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.exe
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.pdb
+C:\Users\admin\source\repos\DCMD\DCMD RESTORING WF4\DCMD RESTORING WF4\obj\Debug\DCMDWF4.FormHandler.resources
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe.config
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.exe
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\bin\Debug\DCMD RESTORING WF4.pdb
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMDWF4.GraphBuilder.resources
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD_RESTORING_WF4.Properties.Resources.resources
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.GenerateResource.cache
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.exe
+C:\Users\user\source\repos\DCMDPRAC\DCMDWP7\DCMD RESTORING WF4\obj\Debug\DCMD RESTORING WF4.pdb
