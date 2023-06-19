@@ -12,6 +12,11 @@ using System.Xml.Linq;
 
 namespace DCMDWF4
 {
+    /// <summary>
+    /// GraphBuilder is an inheritance of the class Form, which allows it to visuallt looks like a normal windows app
+    /// This form is used to plot points on the graph based on a simple equation
+    /// This equation itself is "y = 1.2 *((a - b)^3) * E^X^2 + x;"
+    /// </summary>
     public partial class GraphBuilder : Form
     {
         public GraphBuilder()

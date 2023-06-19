@@ -12,6 +12,10 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace DCMDWF6
 {
+    /// <summary>
+    /// ArrayInsertert is an inheritence of windows class Forms to form windows-styled applications
+    /// This form allows to insert a 0 into a visually displayed array
+    /// </summary>
     public partial class ArrayInserter : Form
     {
 

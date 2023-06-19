@@ -276,7 +276,7 @@
             series1.Legend = "Legend1";
             series1.MarkerColor = System.Drawing.Color.Red;
             series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Square;
-            series1.Name = "Series1";
+            series1.Name = "XPoints";
             this.derChart.Series.Add(series1);
             this.derChart.Size = new System.Drawing.Size(634, 347);
             this.derChart.TabIndex = 1;
