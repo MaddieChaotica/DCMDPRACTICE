@@ -23,6 +23,8 @@ namespace DCMDWF4
         /// It gets all the values from text boxes and checks if the progam will halt
         /// If it doesn't halt it gives out an error
         /// If it does halt it proceeds with a loop that pushes all the values of x to a function that solves the equation
+        /// After finding the answer, it adds it and the x value to two arrays of points
+        /// Those points are plotted on a graph afterwards
         /// </summary>
         private void btn1Activator_Click(object sender, EventArgs e)
         {
@@ -38,39 +40,48 @@ namespace DCMDWF4
             double yMin = 999999;
             double yMax = -999999;
             int count = 0;
-            double i = xMin;
 
             derChart.ChartAreas[0].AxisX.Minimum = xMin;
             derChart.ChartAreas[0].AxisX.Maximum = xMax;
-            derChart.ChartAreas[0].AxisX.Interval = step;
+            derChart.ChartAreas[0].AxisX.MajorGrid. Interval = step;
+
             
-            int xDots = Convert.ToInt32(Math.Ceiling((xMax-xMin)/step)+1);
-
-            double[] xPoints = new double[xDots];
-            double[] yPoints = new double[xDots];
-
-            int iMin = (int)Math.Floor(xMin);
-
-
+            //counts the amount of xs;
             if (Math.Abs(xk - (x0 + dx)) < Math.Abs(xk - x0))
             {
-                while (((x < xMax) || (x > xMin)) && count < xDots)
+                while (x != xk)
                 {
-                    
-                    x = Math.Round(x + dx, 2);   
-                    xPoints[count] = x;
-                    yPoints[count] = Program.equationTabbySolver(x, a, b); //Y Points on the chart
-                    if (yPoints[count] < yMin) { yMin = yPoints[count]; }
-                    if (yPoints[count] > yMax) { yMax = yPoints[count]; }
+                    x = Math.Round(x + dx, 2);
                     count++;
                 }
+
             }
             else
             {
                 MessageBox.Show("Error! With inputed parametres you cannot achive xk");
             }
+            double[] xPoints = new double[count];
+            double[] yPoints = new double[count];
+
+
+            count =0;
+
+            x = x0;
+    
+            while (x != xk)   
+            {
+                xPoints[count] = x;
+                yPoints[count] = Program.equationTabbySolver(x, a, b); //Y Points
+                x = Math.Round(x + dx, 2);
+                if (yPoints[count] < yMin) { yMin = yPoints[count]; }
+                if (yPoints[count] > yMax) { yMax = yPoints[count]; }
+                
+                count++;
+               
+            }
+
             derChart.ChartAreas[0].AxisY.Minimum = yMin;
-            derChart.ChartAreas[0].AxisY.Minimum = yMax;
+            derChart.ChartAreas[0].AxisY.Maximum = yMax;
             
             derChart.Series[0].Points.DataBindXY(xPoints, yPoints);
 

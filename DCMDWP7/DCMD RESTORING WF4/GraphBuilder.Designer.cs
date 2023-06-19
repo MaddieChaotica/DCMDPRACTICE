@@ -28,10 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.valueBox = new System.Windows.Forms.GroupBox();
+            this.stepValue = new System.Windows.Forms.TextBox();
+            this.xMaxValue = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.xMinValue = new System.Windows.Forms.TextBox();
             this.btn1Activator = new System.Windows.Forms.Button();
             this.bValue = new System.Windows.Forms.TextBox();
             this.aValue = new System.Windows.Forms.TextBox();
@@ -46,12 +52,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.derChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.xMinValue = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.xMaxValue = new System.Windows.Forms.TextBox();
-            this.stepValue = new System.Windows.Forms.TextBox();
             this.valueBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.derChart)).BeginInit();
             this.SuspendLayout();
@@ -85,6 +85,60 @@
             this.valueBox.Size = new System.Drawing.Size(634, 180);
             this.valueBox.TabIndex = 0;
             this.valueBox.TabStop = false;
+            // 
+            // stepValue
+            // 
+            this.stepValue.Location = new System.Drawing.Point(511, 115);
+            this.stepValue.Name = "stepValue";
+            this.stepValue.Size = new System.Drawing.Size(100, 20);
+            this.stepValue.TabIndex = 18;
+            this.stepValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.stepValue_KeyPress);
+            // 
+            // xMaxValue
+            // 
+            this.xMaxValue.Location = new System.Drawing.Point(511, 72);
+            this.xMaxValue.Name = "xMaxValue";
+            this.xMaxValue.Size = new System.Drawing.Size(100, 20);
+            this.xMaxValue.TabIndex = 17;
+            this.xMaxValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.xMaxValue_KeyPress);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(444, 111);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(61, 23);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "step =";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(444, 72);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(68, 23);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "xMax =";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(444, 29);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(62, 23);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "xMin =";
+            // 
+            // xMinValue
+            // 
+            this.xMinValue.Location = new System.Drawing.Point(511, 28);
+            this.xMinValue.Name = "xMinValue";
+            this.xMinValue.Size = new System.Drawing.Size(100, 20);
+            this.xMinValue.TabIndex = 13;
+            this.xMinValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.xMinValue_KeyPress);
             // 
             // btn1Activator
             // 
@@ -211,76 +265,22 @@
             // 
             // derChart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.derChart.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.derChart.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.derChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.derChart.Legends.Add(legend1);
             this.derChart.Location = new System.Drawing.Point(12, 198);
             this.derChart.Name = "derChart";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Legend = "Legend1";
-            series2.MarkerColor = System.Drawing.Color.Red;
-            series2.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Square;
-            series2.Name = "Series1";
-            this.derChart.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.MarkerColor = System.Drawing.Color.Red;
+            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Square;
+            series1.Name = "Series1";
+            this.derChart.Series.Add(series1);
             this.derChart.Size = new System.Drawing.Size(634, 347);
             this.derChart.TabIndex = 1;
             this.derChart.Text = "Chart";
-            // 
-            // xMinValue
-            // 
-            this.xMinValue.Location = new System.Drawing.Point(511, 28);
-            this.xMinValue.Name = "xMinValue";
-            this.xMinValue.Size = new System.Drawing.Size(100, 20);
-            this.xMinValue.TabIndex = 13;
-            this.xMinValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.xMinValue_KeyPress);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(444, 29);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 23);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "xMin =";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(444, 72);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(68, 23);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "xMax =";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(444, 111);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 23);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "step =";
-            // 
-            // xMaxValue
-            // 
-            this.xMaxValue.Location = new System.Drawing.Point(511, 72);
-            this.xMaxValue.Name = "xMaxValue";
-            this.xMaxValue.Size = new System.Drawing.Size(100, 20);
-            this.xMaxValue.TabIndex = 17;
-            this.xMaxValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.xMaxValue_KeyPress);
-            // 
-            // stepValue
-            // 
-            this.stepValue.Location = new System.Drawing.Point(511, 115);
-            this.stepValue.Name = "stepValue";
-            this.stepValue.Size = new System.Drawing.Size(100, 20);
-            this.stepValue.TabIndex = 18;
-            this.stepValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.stepValue_KeyPress);
             // 
             // GraphBuilder
             // 
