@@ -2,7 +2,6 @@ C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\bin\Debug\DCMDWF8.exe.config
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\bin\Debug\DCMDWF8.exe
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\bin\Debug\DCMDWF8.pdb
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\obj\Debug\DCMDWF8.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\obj\Debug\DCMDWF8.csproj.SuggestedBindingRedirects.cache
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\obj\Debug\DCMDWF8.Drawing.resources
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\obj\Debug\DCMDWF8.Properties.Resources.resources
 C:\Users\user\source\repos\DCMDPRAC\DCMDWF8\DCMDWF8\obj\Debug\DCMDWF8.csproj.GenerateResource.cache
