@@ -1,0 +1,6 @@
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\bin\Debug\FormulaCalculi.dll
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\bin\Debug\FormulaCalculi.pdb
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\obj\Debug\FormulaCalculi.csproj.AssemblyReference.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\obj\Debug\FormulaCalculi.csproj.CoreCompileInputs.cache
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\obj\Debug\FormulaCalculi.dll
+C:\Users\dimad\source\repos\WPractice\DCMDWF9\FormulaCalculi\FormulaCalculi\obj\Debug\FormulaCalculi.pdb
